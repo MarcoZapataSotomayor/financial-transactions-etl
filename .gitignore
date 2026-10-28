@@ -1,0 +1,21 @@
+# Entorno virtual
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Configuración local
+.env
+
+# Archivos de salida
+data/output/
+
+# Datos originales (si no tenemos permiso para publicarlos)
+data/*.csv
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Caché de pytest
+.pytest_cache/
